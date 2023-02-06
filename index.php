@@ -153,7 +153,7 @@
                                     fill="rgba(236,240,241,1)"></path>
                             </svg>
                         </div>
-                        <span class="heading">John Doe</span>
+                        <span class="heading">MfachrizalZ</span>
                         <p>
                             <svg
                                 class="icon"
@@ -177,60 +177,22 @@
                                     d="M123.52064 667.99143l344.526782 229.708899 0-205.136409-190.802457-127.396658zM88.051421 585.717469l110.283674-73.717469-110.283674-73.717469 0 147.434938zM556.025711 897.627196l344.526782-229.708899-153.724325-102.824168-190.802457 127.396658 0 205.136409zM512 615.994287l155.406371-103.994287-155.406371-103.994287-155.406371 103.994287zM277.171833 458.832738l190.802457-127.396658 0-205.136409-344.526782 229.708899zM825.664905 512l110.283674 73.717469 0-147.434938zM746.828167 458.832738l153.724325-102.824168-344.526782-229.708899 0 205.136409zM1023.926868 356.00857l0 311.98286q0 23.402371-19.453221 36.566205l-467.901157 311.98286q-11.993715 7.459506-24.57249 7.459506t-24.57249-7.459506l-467.901157-311.98286q-19.453221-13.163834-19.453221-36.566205l0-311.98286q0-23.402371 19.453221-36.566205l467.901157-311.98286q11.993715-7.459506 24.57249-7.459506t24.57249 7.459506l467.901157 311.98286q19.453221 13.163834 19.453221 36.566205z"
                                     fill="white"></path>
                             </svg>
-                            <svg
-                                class="icon"
-                                viewbox="0 0 1024 1024"
-                                version="1.1"
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="30"
-                                height="30">
-                                <path
-                                    d="M950.930286 512q0 143.433143-83.748571 257.974857t-216.283429 158.573714q-15.433143 2.852571-22.601143-4.022857t-7.168-17.115429l0-120.539429q0-55.442286-29.696-81.115429 32.548571-3.437714 58.587429-10.313143t53.686857-22.308571 46.299429-38.034286 30.281143-59.977143 11.702857-86.016q0-69.12-45.129143-117.686857 21.138286-52.004571-4.534857-116.589714-16.018286-5.12-46.299429 6.290286t-52.589714 25.161143l-21.723429 13.677714q-53.174857-14.848-109.714286-14.848t-109.714286 14.848q-9.142857-6.290286-24.283429-15.433143t-47.689143-22.016-49.152-7.68q-25.161143 64.585143-4.022857 116.589714-45.129143 48.566857-45.129143 117.686857 0 48.566857 11.702857 85.723429t29.988571 59.977143 46.006857 38.253714 53.686857 22.308571 58.587429 10.313143q-22.820571 20.553143-28.013714 58.88-11.995429 5.705143-25.746286 8.557714t-32.548571 2.852571-37.449143-12.288-31.744-35.693714q-10.825143-18.285714-27.721143-29.696t-28.306286-13.677714l-11.410286-1.682286q-11.995429 0-16.603429 2.56t-2.852571 6.582857 5.12 7.972571 7.460571 6.875429l4.022857 2.852571q12.580571 5.705143 24.868571 21.723429t17.993143 29.110857l5.705143 13.165714q7.460571 21.723429 25.161143 35.108571t38.253714 17.115429 39.716571 4.022857 31.744-1.974857l13.165714-2.267429q0 21.723429 0.292571 50.834286t0.292571 30.866286q0 10.313143-7.460571 17.115429t-22.820571 4.022857q-132.534857-44.032-216.283429-158.573714t-83.748571-257.974857q0-119.442286 58.88-220.306286t159.744-159.744 220.306286-58.88 220.306286 58.88 159.744 159.744 58.88 220.306286z"
-                                    fill="white"></path>
-                            </svg>
+                            <a href="https://github.com/mfachrizalz" target="_blank">
+                                <svg
+                                    class="icon"
+                                    viewbox="0 0 1024 1024"
+                                    version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="30"
+                                    height="30">
+                                    <path
+                                        d="M950.930286 512q0 143.433143-83.748571 257.974857t-216.283429 158.573714q-15.433143 2.852571-22.601143-4.022857t-7.168-17.115429l0-120.539429q0-55.442286-29.696-81.115429 32.548571-3.437714 58.587429-10.313143t53.686857-22.308571 46.299429-38.034286 30.281143-59.977143 11.702857-86.016q0-69.12-45.129143-117.686857 21.138286-52.004571-4.534857-116.589714-16.018286-5.12-46.299429 6.290286t-52.589714 25.161143l-21.723429 13.677714q-53.174857-14.848-109.714286-14.848t-109.714286 14.848q-9.142857-6.290286-24.283429-15.433143t-47.689143-22.016-49.152-7.68q-25.161143 64.585143-4.022857 116.589714-45.129143 48.566857-45.129143 117.686857 0 48.566857 11.702857 85.723429t29.988571 59.977143 46.006857 38.253714 53.686857 22.308571 58.587429 10.313143q-22.820571 20.553143-28.013714 58.88-11.995429 5.705143-25.746286 8.557714t-32.548571 2.852571-37.449143-12.288-31.744-35.693714q-10.825143-18.285714-27.721143-29.696t-28.306286-13.677714l-11.410286-1.682286q-11.995429 0-16.603429 2.56t-2.852571 6.582857 5.12 7.972571 7.460571 6.875429l4.022857 2.852571q12.580571 5.705143 24.868571 21.723429t17.993143 29.110857l5.705143 13.165714q7.460571 21.723429 25.161143 35.108571t38.253714 17.115429 39.716571 4.022857 31.744-1.974857l13.165714-2.267429q0 21.723429 0.292571 50.834286t0.292571 30.866286q0 10.313143-7.460571 17.115429t-22.820571 4.022857q-132.534857-44.032-216.283429-158.573714t-83.748571-257.974857q0-119.442286 58.88-220.306286t159.744-159.744 220.306286-58.88 220.306286 58.88 159.744 159.744 58.88 220.306286z"
+                                        fill="white"></path>
+                                </svg>
+                            </a>
                         </p>
                     </div>
                 </div>
-
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <!-- <form id="contactForm" data-sb-form-api-token="API_TOKEN"> <div class="row
-                align-items-stretch mb-5"> <div class="col-md-6"> <div class="form-group"> <!-
-                Name input - <input class="form-control" id="name" type="text" placeholder="Your
-                Name *" data-sb-validations="required" /> <div class="invalid-feedback"
-                data-sb-feedback="name:required">A name is required.</div> </div> <div
-                class="form-group"> <!- Email address input- <input class="form-control"
-                id="email" type="email" placeholder="Your Email *"
-                data-sb-validations="required,email" /> <div class="invalid-feedback"
-                data-sb-feedback="email:required">An email is required.</div> <div
-                class="invalid-feedback" data-sb-feedback="email:email">Email is not
-                valid.</div> </div> <div class="form-group mb-md-0"> <! Phone number input-
-                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
-                data-sb-validations="required" /> <div class="invalid-feedback"
-                data-sb-feedback="phone:required">A phone number is required.</div> </div>
-                </div> <div class="col-md-6"> <div class="form-group form-group-textarea
-                mb-md-0"> <! Message input- <textarea class="form-control" id="message"
-                placeholder="Your Message *" data-sb-validations="required"></textarea> <div
-                class="invalid-feedback" data-sb-feedback="message:required">A message is
-                required.</div> </div> </div> </div> <!- Submit success message-->
-                <!---->
-                <!-- This is what your users will see when the form-->
-                <!-- has successfully submitted- <div class="d-none" id="submitSuccessMessage">
-                <div class="text-center text-white mb-3"> <div class="fw-bolder">Form submission
-                successful!</div> To activate this form, sign up at <br /> <a
-                href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                </div> </div> <!-- Submit error message- <!-->
-                <!-- This is what your users will see when there is-->
-                <!-- an error submitting the form <div class="d-none"
-                id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending
-                message!</div></div> <!- Submit Button <div class="text-center"><button
-                class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton"
-                type="submit">Send Message</button></div> </form> -->
             </div>
         </section>
         <!-- Footer-->
