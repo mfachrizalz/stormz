@@ -65,7 +65,7 @@ $result = mysqli_fetch_array($data);
                         </div>
 
                         <!-- Content Profile -->
-                        <div class="row">
+                        <div class="row text-center">
                             <div class="col col-md-12">
                                 <div class="card shadow mb-1">
                                     <div class="card-header py-3">
@@ -84,7 +84,7 @@ $result = mysqli_fetch_array($data);
                                         <img
                                             src="<?= $location . $result['foto'] ?>"
                                             class="rounded img-profile img-fluid"
-                                            style="width: 40%;"
+                                            style="width: 20%;"
                                             alt="">
                                     </div>
                                 </div>

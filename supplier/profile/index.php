@@ -27,7 +27,7 @@ $result = mysqli_fetch_array($data);
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
 
-        <title>Profile Staff | Stormz</title>
+        <title>Profile Supplier | Stormz</title>
     </head>
     <body id="page-top">
         <!-- Page Wrapper -->
@@ -65,7 +65,7 @@ $result = mysqli_fetch_array($data);
                         </div>
 
                         <!-- Content Profile -->
-                        <div class="row">
+                        <div class="row text-center">
                             <div class="col col-md-12">
                                 <div class="card shadow mb-1">
                                     <div class="card-header py-3">
@@ -84,7 +84,7 @@ $result = mysqli_fetch_array($data);
                                         <img
                                             src="<?= $location . $result['foto'] ?>"
                                             class="rounded img-profile img-fluid"
-                                            style="width: 40%;"
+                                            style="width: 20%;"
                                             alt="">
                                     </div>
                                 </div>
