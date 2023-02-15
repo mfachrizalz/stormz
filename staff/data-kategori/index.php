@@ -79,6 +79,7 @@ $data = mysqli_query($conn, $query);
                                 <h6 class="m-0 font-weight-bold text-primary">Data Kategori</h6>
                             </div>
                             <div class="card-body">
+                                <a href="../tambah-kategori/" class="btn btn-primary mt-3 mb-4">Tambah Kategori</a>
                                 <div class="table-responsive">
                                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                         <thead>
@@ -111,7 +112,6 @@ $data = mysqli_query($conn, $query);
                                             ?>
                                         </tbody>
                                     </table>
-                                    <a href="../tambah-kategori/" class="btn btn-primary">Tambah Kategori</a>
                                 </div>
                             </div>
                         </div>

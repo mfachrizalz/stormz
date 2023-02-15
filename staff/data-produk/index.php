@@ -27,6 +27,7 @@ $data = mysqli_query($conn, $query);
 
         <link rel="stylesheet" href="../../css/all.min.css">
         <link rel="stylesheet" href="../../css/sb-admin-2.min.css">
+        <link rel="stylesheet" href="../../DataTables/datatables.min.css">
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
@@ -85,13 +86,14 @@ $data = mysqli_query($conn, $query);
                                 <h6 class="m-0 font-weight-bold text-primary">Data Produk</h6>
                             </div>
                             <div class="card-body">
+                                <a href="../tambah-produk/" class="btn btn-primary mt-3 mb-4">Tambah Produk</a>
                                 <div class="table-responsive">
-                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <table class="table table-bordered" id="table-data-produk" width="100%" cellspacing="0">
                                         <thead>
                                             <tr class="text-center">
                                                 <th>No</th>
                                                 <th>Foto</th>
-                                                <th>Tipe</th>
+                                                <th style="width: 15em;">Tipe</th>
                                                 <th>Harga</th>
                                                 <th>Stok</th>
                                                 <th>Merk</th>
@@ -142,7 +144,6 @@ $data = mysqli_query($conn, $query);
                                         </tbody>
                                     </table>
                                 </div>
-                                <a href="../tambah-produk/" class="btn btn-primary">Tambah Produk</a>
                             </div>
                         </div>
                     </div>
@@ -199,5 +200,12 @@ $data = mysqli_query($conn, $query);
 
         <!-- Custom scripts for all pages-->
         <script src="../../js/sb-admin-2.min.js"></script>
+        <script src="../../dataTables/datatables.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('#table-data-produk').dataTable();
+            });
+        </script>
     </body>
 </html>

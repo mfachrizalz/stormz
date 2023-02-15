@@ -152,8 +152,9 @@ $data_kategori = mysqli_query($conn, "SELECT * FROM tb_kategori");
                                                             <label for="merk">Merk</label>
                                                             <br>
                                                             <select class="js-select2-merk form-select" name="merk" style="width: 100%">
+                                                                <option value=""></option>
                                                                 <?php foreach($data_merk as $result_merk) { ?>
-                                                                <option value="<?= $result_merk['id_merk'] ?>"><?= $result_merk['merk'] ?></option>
+                                                                <option value="<?= $result_merk['id_merk']; ?>"><?= ucwords($result_merk['merk']); ?></option>
                                                                 <?php } ?>
                                                             </select>
                                                         </div>
@@ -169,7 +170,7 @@ $data_kategori = mysqli_query($conn, "SELECT * FROM tb_kategori");
                                                                 style="width: 100%"
                                                                 multiple="multiple">
                                                                 <?php foreach($data_kategori as $result_kategori) { ?>
-                                                                <option value="<?= $result_kategori['id_kategori'] ?>"><?= $result_kategori['kategori'] ?></option>
+                                                                <option value="<?= $result_kategori['id_kategori']; ?>"><?= ucwords($result_kategori['kategori']); ?></option>
                                                                 <?php } ?>
                                                             </select>
                                                         </div>
