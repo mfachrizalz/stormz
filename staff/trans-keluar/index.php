@@ -301,11 +301,11 @@ $data_select = mysqli_query($conn, "SELECT * FROM tb_barang");
                                             <div class="form-line">
                                                 <label for="select-produk">Pilih Produk</label>
                                                 <br>
-                                                <select class="js-select2-select-produk form-select" onchange="requestSelect()" name="select-produk" id="select-produk" style="width: 100%">
+                                                <select class="js-select2-select-produk form-select" name="select-produk" id="select-produk" style="width: 100%">
+                                                    <option value=""></option>
                                                     <?php foreach ($data_select as $result_select) { 
                                                         if (!in_array($result_select['id_barang'], $id_trans)) {
                                                     ?>
-                                                            <option value="" readonly></option>
                                                             <option value="<?=$result_select['id_barang']; ?>"><?= $result_select['tipe']; ?></option>
                                                     <?php
                                                         }
@@ -436,10 +436,16 @@ $data_select = mysqli_query($conn, "SELECT * FROM tb_barang");
 
         <!-- Custom scripts for all pages-->
         <script src="../../js/sb-admin-2.min.js"></script>
-
         <script src="../../js/select2.min.js"></script>
 
         <script type="text/javascript">
+             $(document).ready(function () {
+                $('.js-select2-merk').select2({placeholder: "Silahkan pilih merk"});
+                $('.js-select2-kategori').select2({placeholder: "Silahkan pilih kategori"});
+                $('.js-select2-select-produk').select2({placeholder: "Silahkan pilih produk", dropdownParent: $('#detailProdukModal')});
+
+            });
+
             function number_format(number, decimals, dec_point, thousands_sep) {
                 // *     example: number_format(1234.56, 2, ',', ' ');
                 // *     return: '1 234,56'
@@ -468,12 +474,6 @@ $data_select = mysqli_query($conn, "SELECT * FROM tb_barang");
             if (window.history.replaceState) {
                 window.history.replaceState(null, null, window.location.href)
             }
-
-            $(document).ready(function () {
-                $('.js-select2-merk').select2({placeholder: "Silahkan pilih merk"});
-                $('.js-select2-kategori').select2({placeholder: "Silahkan pilih kategori"});
-                $('.js-select2-select-produk').select2({placeholder: "Silahkan pilih produk"});
-            });
 
             async function requestSelect() {
                 let select_produk = $(this).val();
@@ -507,6 +507,8 @@ $data_select = mysqli_query($conn, "SELECT * FROM tb_barang");
                     $('#kategori').append('<option selected class="opt-kategori" value="' + result.kategori[i] + '">' + result.kategori[i] + '</option>');
                 }
             }
+
+            
 
             $('#select-produk').change(requestSelect);
             // $('#select-produk').load(requestSelect);

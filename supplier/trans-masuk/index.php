@@ -462,7 +462,7 @@ $data_select = mysqli_query($conn, "SELECT * FROM tb_barang");
             $(document).ready(function () {
                 $('.js-select2-merk').select2({placeholder: "Silahkan pilih merk"});
                 $('.js-select2-kategori').select2({placeholder: "Silahkan pilih kategori"});
-                $('.js-select2-select-produk').select2({placeholder: "Silahkan pilih produk"});
+                $('.js-select2-select-produk').select2({placeholder: "Silahkan pilih produk", dropdownParent: $('#detailProdukModal')});
             });
 
             async function requestSelect() {

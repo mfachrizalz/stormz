@@ -13,12 +13,14 @@ if ($result['role'] == "staff") {
     $location = "../../assets/img/user-foto/manager/";
 }
 
-$delete_foto = unlink($location . $result['foto']);
+$foto = $result['foto'];
 
-if ($delete_foto) {
-    $query = "DELETE FROM tb_user WHERE username = '$username'";
-    mysqli_query($conn, $query);
+$query = "DELETE FROM tb_user WHERE username = '$username'";
+
+if (mysqli_query($conn, $query)) {
+    $delete_foto = unlink($location . $foto);
 }
+
 header("location: ./");
 exit;
 ?>
