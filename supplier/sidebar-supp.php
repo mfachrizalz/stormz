@@ -5,8 +5,8 @@
     <a
         class="sidebar-brand d-flex align-items-center justify-content-center"
         href="../">
-        <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-bolt"></i>
+        <div class="sidebar-brand-icon">
+            <img src="../assets/img/logo-stormz.png" alt="logo-stormz" style="width: 2.5em;">
         </div>
         <div class="sidebar-brand-text mx-3">Stormz</div>
     </a>
