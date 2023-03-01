@@ -80,7 +80,7 @@ $data = mysqli_query($conn, $query);
             }
         </script>
 
-        <title>Staff | Stormz</title>
+        <title>Manager | Stormz</title>
     </head>
     <body id="page-top">
         <!-- Page Wrapper -->

@@ -65,7 +65,7 @@ foreach ($data_kategori as $result_kategori) {
 }
 
 $chart_pie_bg_color = ['#021531', '#EC971C', '#325d79', '#14de5b'];
-$chart_pie_hover = ['#bf511f', '#76a39f', '#1c3545', '#1cc88a'];
+$chart_pie_hover = ['#0855C9', '#F0B665', '#1c3545', '#1cc88a'];
 ?>
 
 <!DOCTYPE html>

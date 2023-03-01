@@ -71,7 +71,7 @@ function id_transaction($status) {
         $query = "SELECT * FROM tb_transaksi WHERE status = '$status' ORDER BY id_transaksi DESC";
         $data = mysqli_query($conn, $query);
         $result = mysqli_fetch_assoc($data);
-        $arr_result = explode('/', $result['id_transaksi']);
+        @$arr_result = explode('/', $result['id_transaksi']);
 
         $arr_date_db = explode('TR', $arr_result[0]);
         $date_db = end($arr_date_db);

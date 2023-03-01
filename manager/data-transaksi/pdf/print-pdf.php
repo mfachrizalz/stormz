@@ -66,13 +66,13 @@ ob_start();
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        
         <link rel="stylesheet" href="../../../css/style-pdf.css" media="all"/>
     </head>
     <body>
         <header class="clearfix">
             <div id="logo">
-                <img src="../../../assets/img/logoStormz-color.png" alt="logo" height="70">
+                <img src="../../../assets/img/logo-stormz.png" alt="logo" height="70">
             </div>
             <div id="company">
                 <h2 class="name">STORMZ</h2>
