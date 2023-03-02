@@ -1,6 +1,10 @@
 <?php 
 require('./functions/connection.php');
 include "./functions/functions.php";
+
+$pw = password_hash("staff123", PASSWORD_DEFAULT);
+echo $pw;
+exit;
 ?>
 <script src="./js/sweet-alert.js"></script>
 <script type="text/javascript">

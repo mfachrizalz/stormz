@@ -1,3 +1,8 @@
+<?php
+header("location: ./signin/");
+exit;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>

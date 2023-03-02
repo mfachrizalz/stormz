@@ -150,6 +150,7 @@ $result = mysqli_fetch_array($data);
                         </div>
                         <!-- End for Profile -->
                         <a href="../edit-profile/" class="btn btn-success mt-3">Edit Profile</a>
+                        <a href="../edit-password/" class="btn btn-primary ml-4 mt-3">Ganti Password</a>
                     </div>
                     <!-- /.container-fluid -->
 

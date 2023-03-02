@@ -78,7 +78,7 @@ $data = mysqli_query($conn, $query);
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table class="table table-bordered" width="100%" cellspacing="0">
+                                    <table class="table table-bordered" id="table-data-user" width="100%" cellspacing="0">
                                         <thead>
                                             <tr class="text-center">
                                                 <th>No</th>
@@ -187,5 +187,12 @@ $data = mysqli_query($conn, $query);
 
         <!-- Custom scripts for all pages-->
         <script src="../../js/sb-admin-2.min.js"></script>
+        <script src="../../DataTables/datatables.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('#table-data-user').dataTable();
+            });
+        </script>
     </body>
 </html>
