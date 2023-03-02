@@ -2,7 +2,7 @@
 require('./functions/connection.php');
 include "./functions/functions.php";
 
-$pw = password_hash("staff123", PASSWORD_DEFAULT);
+$pw = password_hash("managerstormz", PASSWORD_DEFAULT);
 echo $pw;
 exit;
 ?>
